@@ -19,22 +19,28 @@
         <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:wght@100&display=swap" rel="stylesheet">
         
     <title>Nadia Ayad</title>
+    
     <body>
         <header class="header">
-        <!--
-            <nav>
-                <ul>
-                  <li><a href="#"></a></li>   
-                  <li><a href="#"></a></li>  
-                  <li><a href="#inicio__link">Inicio</a></li>
-                  <li><a href="#bio__link">Biografia</a></li>
-                  <li><a href="#film__link">Contribuições</a></li>
-                  <li><a href="#invencoes__link">Contexto Histórico</a></li>
-                  <li><a href="#"> Sobre o grafeno </a></li>
-                  <li><a href="#"></a></li> 
-                </ul>
-              </nav>
-               */ -->
+
+            <!--alterar modo claro-escuro -->
+            <h6 id="DarkModetext">Dark Mode is OFF</h6>
+            <button onclick="darkMode()">Darkmode</button>
+            <button onclick="lightMode()">LightMode</button>
+                <script>
+      function darkMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "dark-mode";
+        content.innerText = "Dark Mode is ON";
+      }
+      function lightMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "light-mode";
+        content.innerText = "Dark Mode is OFF";
+      }
+                </script>
         </header>
 
         <main class="main">
@@ -98,22 +104,6 @@
                 </p>
             </div>
 
-             <!-- fazer um carrossel com o que é possível fazer com grafeno 
-            baterias, transistores, chips de computador, geração de energia, supercapacitores, sequenciamento de DNA, filtros de água, antenas, telas sensíveis ao toque (para telas LCD ou OLED), células solares e produtos relacionados à eletrônica. Assim, é um dos materiais mais promissores devido às suas propriedades físico-químicas excepcionais.
-            <div id="carrossel">
-            <div class="slide"><img class="carrossel" alt= "Portfolio 1" src="assets/imagens/portfolio1.png"> </div>
-            <div class="slide"><img class="carrossel" alt= "Portfolio 2" src="assets/imagens/portfolio 2.png"></div>
-            <div class="slide"> <img class="carrossel" alt= "Portfolio 3" src="assets/imagens/portfolio 3.png"></div>
-            <div class="slide"> <img class="carrossel" alt= "Portfolio 4" src="assets/imagens/portfolio 4.png"></div>
-            <div class="slide"><img class="carrossel" alt= "Portfolio 5" src="assets/imagens/portfolio 5.png"></div>
-            <div class="slide"> <img class="carrossel" alt= "Portfolio 6" src="assets/imagens/portfolio 6.png"></div>
-            <div class="slide"> <img class="carrossel" alt= "Portfolio 7" src="assets/imagens/portfolio 7.png"></div>
-            <div class="slide"> <img class="carrossel" alt= "Portfolio 8" src="assets/imagens/portfolio 8.png"></div>
-            <div class="slide"> <img class="carrossel" alt= "Portfolio 9" src="assets/imagens/portfolio 9.png"></div>
-            </div>
-            
-            */ -->
-
             <div class="contexto">
                 <h2 class="contexto__titulo"> O Brasil é o 2º maior produtor de grafite do mundo! </h2>
             </div>
@@ -136,28 +126,21 @@
 
             <div class="bibliografia" >
                 <p class="bibliografia__descricao">
-                    <a href="https://www.gov.br/mme/pt-br/assuntos/noticias/potencial-da-grafita-no-brasil-abre-caminho-para-producao-expressiva-de-grafeno#:~:text=As%20pesquisas%20afirmam%20que%20a,de%20270%20milh%C3%B5es%20de%20toneladas.">Potencial da grafita no Brasil abre caminho para produção expressiva de grafeno</a>   
+                    <a href="https://www.gov.br/mme/pt-br/assuntos/noticias/potencial-da-grafita-no-brasil-abre-caminho-para-producao-expressiva-de-grafeno#:~:text=As%20pesquisas%20afirmam%20que%20a,de%20270%20milh%C3%B5es%20de%20toneladas." target="_blank">Potencial da grafita no Brasil abre caminho para produção expressiva de grafeno</a>   
                     <br>
+                    <a href="https://forbes.com.br/forbes-mulher/2022/06/16-cientistas-brasileiras-que-fizeram-historia/" target="_blank">16 cientistas brasileiras que fizeram história</a>  
                     <br>
-                    <a href="https://forbes.com.br/forbes-mulher/2022/06/16-cientistas-brasileiras-que-fizeram-historia/">16 cientistas brasileiras que fizeram história</a>  
+                    <a href="https://paamsj.org.br/escassez-da-agua/" target="_blank">Escassez da Água: o aquecimento global como ameaça</a>
                     <br>
+                    <a href="https://www.abecedariodaeducacao.pt/2019/05/25/grafite-diamante-fulereno-e-grafeno-quais-as-diferencas/" target="_blank">Grafite, diamante, fulereno e grafeno – quais as diferenças?</a>
                     <br>
-                    <a href="https://paamsj.org.br/escassez-da-agua/">Escassez da Água: o aquecimento global como ameaça</a>
+                    <a href="https://pt.wikipedia.org/wiki/Nadia_Ayad#:~:text=Nadia%20prop%C3%B4s%20um%20sistema%20de,o%20acesso%20%C3%A0%20%C3%A1gua%20pot%C3%A1vel" target="_blank">Nadia Ayad - Wikipedia</a>
                     <br>
+                    <a href="https://www.instagram.com/p/BoMEUAuHfJp/" target="_blank">Mulheres Fascinantes - Instagram </a>
                     <br>
-                    <a href="https://www.abecedariodaeducacao.pt/2019/05/25/grafite-diamante-fulereno-e-grafeno-quais-as-diferencas/">Grafite, diamante, fulereno e grafeno – quais as diferenças?</a>
+                    <a href="https://www.conexaomineral.com.br/noticia/2929/brasil-e-um-dos-maiores-produtores-de-grafeno-no-mundo.html#:~:text=O%20grafite%2C%20material%20que%20tem,vers%C3%A1til%20e%20promissor%3A%20o%20grafeno" target="_blank"> Brasil é um dos maiores produtores de Grafeno no mundo </a>
                     <br>
-                    <br>
-                    <a href="https://pt.wikipedia.org/wiki/Nadia_Ayad#:~:text=Nadia%20prop%C3%B4s%20um%20sistema%20de,o%20acesso%20%C3%A0%20%C3%A1gua%20pot%C3%A1vel">Nadia Ayad - Wikipedia</a>
-                    <br>
-                    <br>
-                    <a href="https://www.instagram.com/p/BoMEUAuHfJp/">Mulheres Fascinantes - Instagram </a>
-                    <br>
-                    <br>
-                    <a href="https://www.conexaomineral.com.br/noticia/2929/brasil-e-um-dos-maiores-produtores-de-grafeno-no-mundo.html#:~:text=O%20grafite%2C%20material%20que%20tem,vers%C3%A1til%20e%20promissor%3A%20o%20grafeno"> Brasil é um dos maiores produtores de Grafeno no mundo </a>
-                    <br>
-                    <br>
-                    <a href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do;jsessionid=C6D761805F699E1215CD8E3E27B72FFE.buscatextual_4">Nadia Ayad - Currículo Lattes</a> 
+                    <a href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do;jsessionid=C6D761805F699E1215CD8E3E27B72FFE.buscatextual_4" target="_blank">Nadia Ayad - Currículo Lattes</a> 
                 </p>
             </div>
             
@@ -165,9 +148,8 @@
 
         <footer class="footer">
 <span class="footer_texto">
-    Desenvolvido por <a href="https://chandrasantos.github.io/"> <span style="color: #ffdf00; font-weight: bold;"> Chandra Santos</span>.</a> | 2023 | Site desenvolvido como projeto final do curso programação web para iniciantes da WoMakersCode, Ifood e Potência Tech.
+    Desenvolvido por <a href="https://chandrasantos.github.io/"> <span style="color: #009c3b; font-weight: bold;"> Chandra Santos</span>.</a> | 2023 | Site desenvolvido como projeto final do curso programação web para iniciantes da WoMakersCode, Ifood e Potência Tech.
 </span>
         </footer>
-<script src="script.js"></script>
     </body>
 </html>

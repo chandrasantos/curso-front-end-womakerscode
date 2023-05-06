@@ -39,5 +39,3 @@ p {
     height: 100%;
    }
 
-/* Dark Mode*/
-.dark-mode { filter: invert(100%); }

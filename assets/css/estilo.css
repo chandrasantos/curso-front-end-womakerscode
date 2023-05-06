@@ -1,5 +1,4 @@
 body {
-    background-color: #009c3b;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -7,7 +6,29 @@ body {
     font-family: 'Roboto', sans-serif;
     color: white;
     --cor-destaque: #ffdf00;
+    background-color: #009c3b;
+}  
+
+    /* Dark Mode*/
+.dark-mode {
+        background-color: black;
+        color: white;
+        --cor-destaque: #ffdf00;
 }
+.light-mode {
+        color: white;
+        --cor-destaque: #ffdf00;
+        background-color: #009c3b;
+}
+
+.dark-mode a {
+  color: #dee2e6;
+}
+
+.dark-mode a:hover {
+  color: #3cc368;
+}
+
 
 .header {
     width: 100%;
@@ -148,7 +169,7 @@ main {
     font-size: 50px;
     font-weight: 40px;
     color: var(--cor-destaque);
-    margin: 16px 0; 
+    margin: 8px 0; 
     text-align: center;    
 }
 
@@ -158,7 +179,7 @@ main {
     margin: 16px 0;
     width: 100%;
     max-width: 900px;
-    text-align: justify;
+    text-align: center;
     line-height: 1.5em;
     margin-bottom: 1em;
 }
@@ -230,3 +251,4 @@ main {
 }
 
 /* cores da bandeira do Brasil: Verde #009c3b Amarelo #ffdf00 Azul #002776 Branco #FFFFFF */
+  
