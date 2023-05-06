@@ -14,4 +14,4 @@ Disponíveis nesse PDF: https://github.com/chandrasantos/bootcamp-front-end-woma
 Disponíveis nesse quadro: https://github.com/users/chandrasantos/projects/3/views/1?layout=board
 
 # Site:
-Publicado no GitHub: 
+Publicado no GitHub: https://chandrasantos.github.io/bootcamp-front-end-womakerscode/
