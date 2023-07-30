@@ -1,6 +1,6 @@
 # Trabalho de conclusão
 
-Site criado como requisito obrigatório para obter o certificado do <b> bootcamp programação web para iniciantes da WoMakersCode, IFood e Potência Tech </b>. 
+Site criado como requisito obrigatório para obter o certificado do <b> curso programação web para iniciantes da WoMakersCode, IFood e Potência Tech </b>. 
 
 O desafio: criar um site com HTML, CSS e JavaScript celebrando a história de uma mulher que teve um impacto significativo no mundo de STEM (Ciências, Tecnologia, Engenharia e Matemática).
 
